@@ -1,0 +1,44 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    background: rgb(238,174,237);
+    background: radial-gradient(circle, rgba(238,174,237,1) 0%, rgba(148,233,226,1) 100%);
+}
+
+img {
+    max-width: 55%;
+}
+
+.cssbayan {
+    max-width: 50%;
+    margin: 0.1em auto;
+}
+
+.cssbayan-item {
+    border-top: 0.1em solid #14397d;
+}
+
+.cssbayan-title {
+    display: block;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background .3s ease-out;
+}
+
+.cssbayan-title:hover {
+    background-color: rgba(148,233,226,1);
+}
+
+.cssbayan-input {
+    appearance: none;
+    position: absolute;
+}
+
+.cssbayan-input:checked + .cssbayan-img {
+    display: block;
+    max-height: 50em;
+}
+.cssbayan-img {
+    display: none;
+    text-align: center;
+}
