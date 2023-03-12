@@ -41,12 +41,14 @@ img {
 .cssbayan-img {
     display: none;
     text-align: center;
+    transition: max-height 1s;
 }
 .cssbayan-input:hover + .cssbayan-img {
     display: block;
     max-height: 50em;
 }
 
-.bayan-input:checked + .bayan-title {
-    background-color: rgba(148,233,226,1);
+.cssbayan-img:hover {
+    display: block;
+    max-height: 50em;
 }
